@@ -63,7 +63,8 @@ main .exploreSection .first {
   font-size: 3.625rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 70px; /* 120.69% */
+  line-height: 70px;
+  /* 120.69% */
   letter-spacing: -1px;
   margin-top: 3rem;
 }
@@ -74,7 +75,8 @@ main .exploreSection .second {
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 145.455% */
+  line-height: 32px;
+  /* 145.455% */
 }
 
 main .exploreSection .third button {
@@ -87,7 +89,8 @@ main .exploreSection .third button {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 130% */
+  line-height: 26px;
+  /* 130% */
   margin-top: 1rem;
 }
 
@@ -128,15 +131,19 @@ main .sampleTest p {
   0% {
     transform: translateX(0%) translateY(-100%);
   }
+
   25% {
     transform: translateX(0%) translateY(0);
   }
+
   50% {
     transform: translateX(0%) translateY(-30px);
   }
+
   75% {
     transform: translateX(0%) translateY(0);
   }
+
   100% {
     transform: translateX(0%) translateY(0);
   }
@@ -159,7 +166,7 @@ main .productInfo .first {
   gap: 4rem;
 }
 
-main .productInfo .first > div {
+main .productInfo .first>div {
   display: flex;
   gap: 1rem;
 }
@@ -174,7 +181,8 @@ main .productInfo .first div .title {
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 145.455% */
+  line-height: 32px;
+  /* 145.455% */
 }
 
 main .productInfo .first div .text {
@@ -182,7 +190,8 @@ main .productInfo .first div .text {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   margin-top: 0.825rem;
 }
 
@@ -193,7 +202,7 @@ main .productInfo .second {
   text-align: left;
 }
 
-main .productInfo .second > div {
+main .productInfo .second>div {
   display: flex;
   gap: 1.5rem;
 }
@@ -203,7 +212,8 @@ main .productInfo .second div .title {
   font-size: 42px;
   font-style: normal;
   font-weight: 700;
-  line-height: 52px; /* 123.81% */
+  line-height: 52px;
+  /* 123.81% */
   letter-spacing: -0.4px;
 }
 
@@ -212,7 +222,8 @@ main .productInfo .second div .text {
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 145.455% */
+  line-height: 32px;
+  /* 145.455% */
   margin-top: 26px;
 }
 
@@ -225,7 +236,8 @@ main .productInfo .second div button {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 144.444% */
+  line-height: 26px;
+  /* 144.444% */
 }
 
 main .productInfo .second .getStarted {
@@ -255,7 +267,7 @@ main .learnMore .first {
   gap: 4rem;
 }
 
-main .learnMore .first > div {
+main .learnMore .first>div {
   display: flex;
   gap: 1rem;
   align-items: flex-start;
@@ -273,7 +285,8 @@ main .learnMore .first div .title {
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 145.455% */
+  line-height: 32px;
+  /* 145.455% */
 }
 
 main .learnMore .first div .text {
@@ -281,7 +294,8 @@ main .learnMore .first div .text {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   margin-top: 0.825rem;
 }
 
@@ -295,7 +309,8 @@ main .learnMore .second .title {
   font-size: 42px;
   font-style: normal;
   font-weight: 700;
-  line-height: 52px; /* 123.81% */
+  line-height: 52px;
+  /* 123.81% */
   letter-spacing: -0.4px;
 }
 
@@ -304,7 +319,8 @@ main .learnMore .second .text {
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 145.455% */
+  line-height: 32px;
+  /* 145.455% */
   margin-top: 1rem;
 }
 
@@ -317,14 +333,15 @@ main .learnMore .second div button {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 144.444% */
+  line-height: 26px;
+  /* 144.444% */
 }
 
 main .learnMore .second .getStarted {
   margin-top: 40px;
 }
 
-main .learnMore .second > div {
+main .learnMore .second>div {
   display: flex;
   gap: 1rem;
 }
@@ -351,7 +368,8 @@ section .first .title {
   font-size: 42px;
   font-style: normal;
   font-weight: 700;
-  line-height: 52px; /* 123.81% */
+  line-height: 52px;
+  /* 123.81% */
   letter-spacing: -0.4px;
 }
 
@@ -360,7 +378,8 @@ section .first .text {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   margin-top: 24px;
 }
 
@@ -396,7 +415,8 @@ section .first .card .start {
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
-  line-height: 26px; /* 185.714% */
+  line-height: 26px;
+  /* 185.714% */
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -421,7 +441,8 @@ section .first .card .price .dollar {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
 }
 
 section .first .card .price .figure {
@@ -430,16 +451,18 @@ section .first .card .price .figure {
   font-size: 58px;
   font-style: normal;
   font-weight: 700;
-  line-height: 70px; /* 120.69% */
+  line-height: 70px;
+  /* 120.69% */
   letter-spacing: -1px;
 }
 
-section .first .card .price .detail {
+section .first .card .topSection .price .detail {
   color: #1e0e62;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
 }
 
 section .first .card .price div {
@@ -455,7 +478,8 @@ section .first .card .price .detail {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
 }
 
 section .first .card .topSection .detail {
@@ -464,7 +488,8 @@ section .first .card .topSection .detail {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
 }
 
 section .first .card .topSection .text {
@@ -476,7 +501,8 @@ section .first .card .feature {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   margin-top: 38px;
 }
 
@@ -493,7 +519,8 @@ section .first .card .feature .uncheck {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   position: relative;
   left: 18px;
 }
@@ -504,7 +531,8 @@ section .first .card button {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 144.444% */
+  line-height: 26px;
+  /* 144.444% */
   border-radius: 100px;
   border: 1px solid rgb(214, 214, 214);
   background: transparent;
@@ -549,7 +577,8 @@ section .second .heading .title {
   font-size: 42px;
   font-style: normal;
   font-weight: 700;
-  line-height: 52px; /* 123.81% */
+  line-height: 52px;
+  /* 123.81% */
   letter-spacing: -0.4px;
   margin-top: 1rem;
 }
@@ -559,7 +588,8 @@ section .second .heading .text {
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 145.455% */
+  line-height: 32px;
+  /* 145.455% */
   margin-top: 1rem;
 }
 
@@ -568,7 +598,8 @@ section .second .heading .call {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   margin-top: 1rem;
 }
 
@@ -593,6 +624,7 @@ section .inputSection form .middleSection {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
+
 section .inputSection form .grid-item {
   grid-column: span 1;
 }
@@ -622,7 +654,8 @@ section .inputSection select {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 144.444% */
+  line-height: 26px;
+  /* 144.444% */
   height: 46px;
   width: 86%;
 }
@@ -654,7 +687,8 @@ section .inputSection input {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 144.444% */
+  line-height: 26px;
+  /* 144.444% */
 }
 
 section .inputSection textarea {
@@ -668,7 +702,8 @@ section .inputSection textarea {
   color: rgba(21, 20, 57, 0.4);
   font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 144.444% */
+  line-height: 26px;
+  /* 144.444% */
   width: 93%;
   margin-left: 0.2rem;
 }
@@ -689,7 +724,8 @@ section .inputSection .btn button {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 144.444% */
+  line-height: 26px;
+  /* 144.444% */
 }
 
 section .help {
@@ -701,7 +737,8 @@ section .help .title {
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px; /* 145.455% */
+  line-height: 32px;
+  /* 145.455% */
 }
 
 section .help .text {
@@ -709,7 +746,8 @@ section .help .text {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   margin-top: 0.5rem;
 }
 
@@ -737,7 +775,8 @@ footer .brand .moto {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   width: 198px;
   margin-top: 1rem;
 }
@@ -764,7 +803,8 @@ footer table th {
   font-style: normal;
   font-weight: 500;
   text-align: left;
-  line-height: 28px; /* 155.556% */
+  line-height: 28px;
+  /* 155.556% */
 }
 
 footer table tr td {
@@ -772,7 +812,8 @@ footer table tr td {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   gap: 1rem;
 }
 
