@@ -342,7 +342,7 @@ section .first {
 
 section .first .heading {
   text-align: center;
-  width: 60%;
+  width: 100%;
   margin-inline: auto;
 }
 
@@ -750,7 +750,7 @@ footer .brand .handles {
 
 footer .handles {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 footer table th,
