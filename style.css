@@ -19,810 +19,1649 @@ body button:active {
   background: #d61f66;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 2rem 10rem;
-}
+/* Desktop Styles */
+@media (min-width: 1025px) {
+  /* Additional styles for larger screens if needed */
 
-header .logo {
-  font-size: 1.5rem;
-  color: #1e0e62;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: -0.293px;
-}
-
-header .navs {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  gap: 1rem;
-  font-size: 1rem;
-  color: rgba(21, 20, 57, 0.4);
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 22px;
-}
-
-header .navs p:hover {
-  color: #d61f66;
-  cursor: pointer;
-}
-
-main:not(.learnMore) {
-  margin: 2rem 10rem;
-}
-
-main .exploreSection .first {
-  color: #1e0e62;
-  text-align: center;
-  font-size: 3.625rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 70px;
-  /* 120.69% */
-  letter-spacing: -1px;
-  margin-top: 3rem;
-}
-
-main .exploreSection .second {
-  color: rgba(21, 20, 57, 0.4);
-  text-align: center;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  /* 145.455% */
-}
-
-main .exploreSection .third button {
-  width: 268px;
-  height: 60px;
-  border-radius: 100px;
-  border: none;
-  color: #fff;
-  text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  /* 130% */
-  margin-top: 1rem;
-}
-
-main .exploreSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-inline: 25%;
-  text-align: center;
-  gap: 1rem;
-}
-
-section {
-  margin: 2rem 2.5rem;
-}
-
-main .sampleTest {
-  position: static;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: row wrap;
-  align-items: flex-end;
-  margin-top: 9rem;
-  margin-inline: -10rem;
-  transform: translateX(-50%);
-  animation: fallAndBounce 3s ease infinite;
-  width: 100vw;
-}
-
-main .sampleTest p {
-  padding: 16px 24px;
-  align-items: center;
-  border-radius: 26px;
-}
-
-@keyframes fallAndBounce {
-  0% {
-    transform: translateX(0%) translateY(-100%);
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 10rem;
   }
 
-  25% {
-    transform: translateX(0%) translateY(0);
+  header .logo {
+    font-size: 1.5rem;
+    color: #1e0e62;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.293px;
   }
 
-  50% {
-    transform: translateX(0%) translateY(-30px);
+  header .navs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1rem;
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
   }
 
-  75% {
-    transform: translateX(0%) translateY(0);
+  header .navs p:hover {
+    color: #d61f66;
+    cursor: pointer;
   }
 
-  100% {
-    transform: translateX(0%) translateY(0);
+  main:not(.learnMore) {
+    margin: 2rem 10rem;
+  }
+
+  main .exploreSection .first {
+    color: #1e0e62;
+    text-align: center;
+    font-size: 3.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 120.69% */
+    letter-spacing: -1px;
+    margin-top: 3rem;
+  }
+
+  main .exploreSection .second {
+    color: rgba(21, 20, 57, 0.4);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 145.455% */
+  }
+
+  main .exploreSection .third button {
+    width: 268px;
+    height: 60px;
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 130% */
+    margin-top: 1rem;
+  }
+
+  main .exploreSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-inline: 25%;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  section {
+    margin: 2rem 2.5rem;
+  }
+
+  main .sampleTest {
+    position: static;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    margin-top: 9rem;
+    margin-inline: -10rem;
+    transform: translateX(-50%);
+    animation: fallAndBounce 3s ease infinite;
+    width: 100vw;
+  }
+
+  main .sampleTest p {
+    padding: 16px 24px;
+    align-items: center;
+    border-radius: 26px;
+  }
+
+  @keyframes fallAndBounce {
+    0% {
+      transform: translateX(0%) translateY(-100%);
+    }
+
+    25% {
+      transform: translateX(0%) translateY(0);
+    }
+
+    50% {
+      transform: translateX(0%) translateY(-30px);
+    }
+
+    75% {
+      transform: translateX(0%) translateY(0);
+    }
+
+    100% {
+      transform: translateX(0%) translateY(0);
+    }
+  }
+
+  main .productInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-block: 5rem;
+    align-items: center;
+    position: relative;
+    margin-top: 5rem;
+  }
+
+  main .productInfo .first {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  main .productInfo .first>div {
+    display: flex;
+    gap: 1rem;
+  }
+
+  main .productInfo .first div img {
+    width: 44px;
+    height: 38px;
+  }
+
+  main .productInfo .first div .title {
+    color: #1e0e62;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 145.455% */
+  }
+
+  main .productInfo .first div .text {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-top: 0.825rem;
+  }
+
+  main .productInfo .second {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  main .productInfo .second>div {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  main .productInfo .second div .title {
+    color: #1e0e62;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    /* 123.81% */
+    letter-spacing: -0.4px;
+  }
+
+  main .productInfo .second div .text {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 145.455% */
+    margin-top: 26px;
+  }
+
+  main .productInfo .second div button {
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    color: var(--colors-white, #fff);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 144.444% */
+  }
+
+  main .productInfo .second .getStarted {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  main .learnMore {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* height: 25vh; */
+    align-items: center;
+    background: #2f1893;
+    margin-inline: -10rem;
+    padding-inline: 10rem;
+    color: #fff;
+    padding-block: 4rem;
+    margin-top: 3rem;
+  }
+
+  main .learnMore .first {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  main .learnMore .first>div {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  main .learnMore .first div img {
+    position: relative;
+    top: 0.5rem;
+    width: 20px;
+    height: 22px;
+  }
+
+  main .learnMore .first div .title {
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 145.455% */
+  }
+
+  main .learnMore .first div .text {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-top: 0.825rem;
+  }
+
+  main .learnMore .second {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .learnMore .second .title {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    /* 123.81% */
+    letter-spacing: -0.4px;
+  }
+
+  main .learnMore .second .text {
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 145.455% */
+    margin-top: 1rem;
+  }
+
+  main .learnMore .second div button {
+    width: 200px;
+    height: 50px;
+    border-radius: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 144.444% */
+  }
+
+  main .learnMore .second .getStarted {
+    margin-top: 40px;
+  }
+
+  main .learnMore .second>div {
+    display: flex;
+    gap: 1rem;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  section .first {
+    text-align: center;
+  }
+
+  section .first .heading {
+    text-align: center;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  section .first .title {
+    color: #1e0e62;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    /* 123.81% */
+    letter-spacing: -0.4px;
+  }
+
+  section .first .text {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-top: 24px;
+  }
+
+  section .first .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-block: 1rem;
+    margin-top: 3rem;
+    overflow-x: auto;
+    width: 90vw;
+  }
+
+  section .first .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 370px;
+    height: 562px;
+    margin-block: 1rem;
+    transition: all 0.2s;
+  }
+
+  section .first .card .topSection {
+    border-radius: 10px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 43px 55px;
+  }
+
+  section .first .card .start {
+    color: #1e0e62;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 185.714% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  section .first .card .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 23px;
+  }
+
+  section .first .card .price .priceArea {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  section .first .card .price .dollar {
+    color: #1e0e62;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+  }
+
+  section .first .card .price .figure {
+    color: #1e0e62;
+    text-align: center;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 120.69% */
+    letter-spacing: -1px;
+  }
+
+  section .first .card .topSection .price .detail {
+    color: #1e0e62;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+  }
+
+  section .first .card .price div {
+    display: flex;
+    align-items: center;
+  }
+
+  section .first .card .price .detail {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #1e0e62;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+  }
+
+  section .first .card .topSection .detail {
+    color: rgba(21, 20, 57, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+  }
+
+  section .first .card .topSection .text {
+    margin-top: 1rem;
+  }
+
+  section .first .card .feature {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-top: 38px;
+  }
+
+  section .first .card .feature p {
+    margin: 9px;
+  }
+
+  section .first .card .feature p img {
+    margin-right: 18px;
+  }
+
+  section .first .card .feature .uncheck {
+    color: #ebeaed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    position: relative;
+    left: 18px;
+  }
+
+  section .first .card button {
+    color: #1e0e62;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 144.444% */
+    border-radius: 100px;
+    border: 1px solid rgb(214, 214, 214);
+    background: transparent;
+    padding: 12px 38px;
+    margin-top: 1.5rem;
+  }
+
+  section .first .card:hover .topSection {
+    background: #2f1893;
+    transition: all 0.3s;
+    border: none;
+    color: #fff;
+  }
+
+  section .first .card:hover .topSection p {
+    transition: all 0.3s;
+    color: #fff;
+  }
+
+  section .first .card:hover button {
+    background: #ff64a0;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    transition: all 0.3s;
+  }
+
+  section .second {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    width: 90vw;
+  }
+
+  section .second .heading {
+    width: 40%;
+  }
+
+  section .second .heading .title {
+    color: #1e0e62;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    /* 123.81% */
+    letter-spacing: -0.4px;
+    margin-top: 1rem;
+  }
+
+  section .second .heading .text {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 145.455% */
+    margin-top: 1rem;
+  }
+
+  section .second .heading .call {
+    color: #1e0e62;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-top: 1rem;
+  }
+
+  section .inputSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    width: 100%;
+  }
+
+  section .inputSection form {
+    overflow-x: auto;
+  }
+
+  section .inputSection form .topSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section .inputSection form .middleSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  section .inputSection form .grid-item {
+    grid-column: span 1;
+  }
+
+  section .inputSection form .full-width {
+    grid-column: span 3;
+  }
+
+  section .inputSection input[type="text"],
+  section .inputSection input[type="email"] {
+    padding-inline: 1rem;
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+  }
+
+  section .inputSection input[type="number"],
+  section .inputSection select {
+    padding-inline: 1rem;
+    margin-left: 0.2rem;
+  }
+
+  section .inputSection input,
+  section .inputSection select {
+    border-radius: 100px;
+    border: 2px solid #ebeaed;
+    margin-top: 1rem;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 144.444% */
+    height: 46px;
+    width: 86%;
+  }
+
+  section .inputSection input:hover,
+  section .inputSection select:hover,
+  section .inputSection textarea:hover {
+    border: 2px solid #fdebf2;
+  }
+
+  section .inputSection input:focus,
+  section .inputSection select:focus,
+  section .inputSection textarea:focus {
+    outline: 2px solid #e93a7d;
+    border-color: transparent;
+  }
+
+  section .inputSection select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-inline: 1rem;
+    margin-left: 1rem;
+    height: 50px;
+  }
+
+  section .inputSection input {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 144.444% */
+  }
+
+  section .inputSection textarea {
+    border-radius: 10px;
+    border: 2px solid #ebeaed;
+    font-size: 18px;
+    background: #fff;
+    resize: none;
+    padding: 1rem;
+    /* margin-top: 1rem; */
+    color: rgba(21, 20, 57, 0.4);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 144.444% */
+    width: 93%;
+    margin-left: 0.2rem;
+  }
+
+  section .inputSection .btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  section .inputSection .btn button {
+    border-radius: 100px;
+    width: 205px;
+    height: 60px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 144.444% */
+  }
+
+  section .help {
+    margin-top: 1.5rem;
+  }
+
+  section .help .title {
+    color: #1e0e62;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 145.455% */
+  }
+
+  section .help .text {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-top: 0.5rem;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 3rem;
+    padding: 72px 214px;
+    gap: 200px;
+    background: #fafafa;
+  }
+
+  footer .brand .logo {
+    color: #1e0e62;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.293px;
+  }
+
+  footer .brand .moto {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    width: 198px;
+    margin-top: 1rem;
+  }
+
+  footer .brand .handles {
+    width: 20px;
+    height: 22px;
+    margin-top: 2rem;
+  }
+
+  footer .handles {
+    display: flex;
+    gap: 2rem;
+  }
+
+  footer table th,
+  footer table td {
+    padding-inline: 2rem;
+  }
+
+  footer table th {
+    color: #1e0e62;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    line-height: 28px;
+    /* 155.556% */
+  }
+
+  footer table tr td {
+    color: #1e0e62;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    gap: 1rem;
+  }
+
+  footer table tbody {
+    position: relative;
+    top: 1rem;
+  }
+
+  footer table tbody tr td:hover {
+    color: #ff64a0;
+    cursor: pointer;
   }
 }
 
-main .productInfo {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin-block: 5rem;
-  align-items: center;
-  position: relative;
-  margin-top: 5rem;
-}
-
-main .productInfo .first {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-}
-
-main .productInfo .first>div {
-  display: flex;
-  gap: 1rem;
-}
-
-main .productInfo .first div img {
-  width: 44px;
-  height: 38px;
-}
-
-main .productInfo .first div .title {
-  color: #1e0e62;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  /* 145.455% */
-}
-
-main .productInfo .first div .text {
-  color: rgba(21, 20, 57, 0.4);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-  margin-top: 0.825rem;
-}
-
-main .productInfo .second {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-main .productInfo .second>div {
-  display: flex;
-  gap: 1.5rem;
-}
-
-main .productInfo .second div .title {
-  color: #1e0e62;
-  font-size: 42px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 52px;
-  /* 123.81% */
-  letter-spacing: -0.4px;
-}
-
-main .productInfo .second div .text {
-  color: rgba(21, 20, 57, 0.4);
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  /* 145.455% */
-  margin-top: 26px;
-}
-
-main .productInfo .second div button {
-  width: 200px;
-  height: 50px;
-  border-radius: 100px;
-  color: var(--colors-white, #fff);
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  /* 144.444% */
-}
-
-main .productInfo .second .getStarted {
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
-}
-
-main .learnMore {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  /* height: 25vh; */
-  align-items: center;
-  background: #2f1893;
-  margin-inline: -10rem;
-  padding-inline: 10rem;
-  color: #fff;
-  padding-block: 4rem;
-  margin-top: 3rem;
-}
-
-main .learnMore .first {
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-}
-
-main .learnMore .first>div {
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-}
-
-main .learnMore .first div img {
-  position: relative;
-  top: 0.5rem;
-  width: 20px;
-  height: 22px;
-}
-
-main .learnMore .first div .title {
-  color: #fff;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  /* 145.455% */
-}
-
-main .learnMore .first div .text {
-  color: #fff;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-  margin-top: 0.825rem;
-}
-
-main .learnMore .second {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
-
-main .learnMore .second .title {
-  font-size: 42px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 52px;
-  /* 123.81% */
-  letter-spacing: -0.4px;
-}
-
-main .learnMore .second .text {
-  color: #fff;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  /* 145.455% */
-  margin-top: 1rem;
-}
-
-main .learnMore .second div button {
-  width: 200px;
-  height: 50px;
-  border-radius: 100px;
-  color: #fff;
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  /* 144.444% */
-}
-
-main .learnMore .second .getStarted {
-  margin-top: 40px;
-}
-
-main .learnMore .second>div {
-  display: flex;
-  gap: 1rem;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 3rem;
-}
-
-section .first {
-  text-align: center;
-}
-
-section .first .heading {
-  text-align: center;
-  width: 100%;
-  margin-inline: auto;
-}
-
-section .first .title {
-  color: #1e0e62;
-  font-size: 42px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 52px;
-  /* 123.81% */
-  letter-spacing: -0.4px;
-}
-
-section .first .text {
-  color: rgba(21, 20, 57, 0.4);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-  margin-top: 24px;
-}
-
-section .first .cards {
-  display: flex;
-  justify-content: space-between;
-  gap: 5rem;
-  margin-block: 1rem;
-  margin-top: 3rem;
-  overflow-x: auto;
-  width: 90vw;
-}
-
-section .first .card {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 370px;
-  height: 562px;
-  margin-block: 1rem;
-  transition: all 0.2s;
-}
-
-section .first .card .topSection {
-  border-radius: 10px;
-  border: 1px solid rgb(214, 214, 214);
-  padding: 43px 55px;
-}
-
-section .first .card .start {
-  color: #1e0e62;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 26px;
-  /* 185.714% */
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-section .first .card .price {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 23px;
-}
-
-section .first .card .price .priceArea {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-}
-
-section .first .card .price .dollar {
-  color: #1e0e62;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-}
-
-section .first .card .price .figure {
-  color: #1e0e62;
-  text-align: center;
-  font-size: 58px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 70px;
-  /* 120.69% */
-  letter-spacing: -1px;
-}
-
-section .first .card .topSection .price .detail {
-  color: #1e0e62;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-}
-
-section .first .card .price div {
-  display: flex;
-  align-items: center;
-}
-
-section .first .card .price .detail {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  color: #1e0e62;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-}
-
-section .first .card .topSection .detail {
-  color: rgba(21, 20, 57, 0.4);
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-}
-
-section .first .card .topSection .text {
-  margin-top: 1rem;
-}
-
-section .first .card .feature {
-  color: rgba(21, 20, 57, 0.4);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-  margin-top: 38px;
-}
-
-section .first .card .feature p {
-  margin: 9px;
-}
-
-section .first .card .feature p img {
-  margin-right: 18px;
-}
-
-section .first .card .feature .uncheck {
-  color: #ebeaed;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-  position: relative;
-  left: 18px;
-}
-
-section .first .card button {
-  color: #1e0e62;
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  /* 144.444% */
-  border-radius: 100px;
-  border: 1px solid rgb(214, 214, 214);
-  background: transparent;
-  padding: 12px 38px;
-  margin-top: 1.5rem;
-}
-
-section .first .card:hover .topSection {
-  background: #2f1893;
-  transition: all 0.3s;
-  border: none;
-  color: #fff;
-}
-
-section .first .card:hover .topSection p {
-  transition: all 0.3s;
-  color: #fff;
-}
-
-section .first .card:hover button {
-  background: #ff64a0;
-  cursor: pointer;
-  color: #fff;
-  border: none;
-  transition: all 0.3s;
-}
-
-section .second {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-top: 1rem;
-  width: 90vw;
-}
-
-section .second .heading {
-  width: 40%;
-}
-
-section .second .heading .title {
-  color: #1e0e62;
-  font-size: 42px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 52px;
-  /* 123.81% */
-  letter-spacing: -0.4px;
-  margin-top: 1rem;
-}
-
-section .second .heading .text {
-  color: rgba(21, 20, 57, 0.4);
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  /* 145.455% */
-  margin-top: 1rem;
-}
-
-section .second .heading .call {
-  color: #1e0e62;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-  margin-top: 1rem;
-}
-
-section .inputSection {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-  width: 100%;
-}
-
-section .inputSection form {
-  overflow-x: auto;
-}
-
-section .inputSection form .topSection {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-section .inputSection form .middleSection {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-}
-
-section .inputSection form .grid-item {
-  grid-column: span 1;
-}
-
-section .inputSection form .full-width {
-  grid-column: span 3;
-}
-
-section .inputSection input[type="text"],
-section .inputSection input[type="email"] {
-  padding-inline: 1rem;
-  margin-top: 2rem;
-  margin-left: 0.2rem;
-}
-
-section .inputSection input[type="number"],
-section .inputSection select {
-  padding-inline: 1rem;
-  margin-left: 0.2rem;
-}
-
-section .inputSection input,
-section .inputSection select {
-  border-radius: 100px;
-  border: 2px solid #ebeaed;
-  margin-top: 1rem;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  /* 144.444% */
-  height: 46px;
-  width: 86%;
-}
-
-section .inputSection input:hover,
-section .inputSection select:hover,
-section .inputSection textarea:hover {
-  border: 2px solid #fdebf2;
-}
-
-section .inputSection input:focus,
-section .inputSection select:focus,
-section .inputSection textarea:focus {
-  outline: 2px solid #e93a7d;
-  border-color: transparent;
-}
-
-section .inputSection select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  padding-inline: 1rem;
-  margin-left: 1rem;
-  height: 50px;
-}
-
-section .inputSection input {
-  color: rgba(21, 20, 57, 0.4);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  /* 144.444% */
-}
-
-section .inputSection textarea {
-  border-radius: 10px;
-  border: 2px solid #ebeaed;
-  font-size: 18px;
-  background: #fff;
-  resize: none;
-  padding: 1rem;
-  /* margin-top: 1rem; */
-  color: rgba(21, 20, 57, 0.4);
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  /* 144.444% */
-  width: 93%;
-  margin-left: 0.2rem;
-}
-
-section .inputSection .btn {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 0.5rem;
-  margin-top: 1rem;
-}
-
-section .inputSection .btn button {
-  border-radius: 100px;
-  width: 205px;
-  height: 60px;
-  color: #fff;
-  text-align: center;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  /* 144.444% */
-}
-
-section .help {
-  margin-top: 1.5rem;
-}
-
-section .help .title {
-  color: #1e0e62;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  /* 145.455% */
-}
-
-section .help .text {
-  color: rgba(21, 20, 57, 0.4);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-  margin-top: 0.5rem;
-}
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin-top: 3rem;
-  padding: 72px 214px;
-  gap: 200px;
-  background: #fafafa;
-}
-
-footer .brand .logo {
-  color: #1e0e62;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: -0.293px;
-}
-
-footer .brand .moto {
-  color: rgba(21, 20, 57, 0.4);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-  width: 198px;
-  margin-top: 1rem;
-}
-
-footer .brand .handles {
-  width: 20px;
-  height: 22px;
-  margin-top: 2rem;
-}
-
-footer .handles {
-  display: flex;
-  gap: 2rem;
-}
-
-footer table th,
-footer table td {
-  padding-inline: 2rem;
-}
-
-footer table th {
-  color: #1e0e62;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  text-align: left;
-  line-height: 28px;
-  /* 155.556% */
-}
-
-footer table tr td {
-  color: #1e0e62;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 26px;
-  /* 162.5% */
-  gap: 1rem;
-}
-
-footer table tbody {
-  position: relative;
-  top: 1rem;
-}
-
-footer table tbody tr td:hover {
-  color: #ff64a0;
-  cursor: pointer;
+/* Mobile Styles */
+@media (max-width: 1024px) {
+  /* Adjust body button styles for mobile */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1rem;
+  }
+
+  header .logo {
+    font-size: 1rem;
+    color: #1e0e62;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.293px;
+  }
+
+  header .navs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: rgba(21, 20, 57, 0.4);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  header .navs p:hover {
+    color: #d61f66;
+    cursor: pointer;
+  }
+
+  main:not(.learnMore) {
+    margin: 1rem 1rem;
+  }
+
+  main .exploreSection .first {
+    color: #1e0e62;
+    text-align: center;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    /* 120.69% */
+    letter-spacing: -1px;
+    margin-top: 5rem;
+  }
+
+  main .exploreSection .second {
+    color: rgba(21, 20, 57, 0.4);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 145.455% */
+  }
+
+  main .exploreSection .third button {
+    width: 150px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 130% */
+    margin-top: 1rem;
+  }
+
+  main .exploreSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-inline: 25%; */
+    text-align: center;
+    gap: 1rem;
+  }
+
+  section {
+    margin: 1rem 0.5rem;
+  }
+
+  main .sampleTest {
+    position: static;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    margin-top: 5rem;
+    margin-inline: -1rem;
+    transform: translateX(-50%);
+    animation: fallAndBounce 3s ease infinite;
+    width: 100vw;
+  }
+
+  main .sampleTest p {
+    padding: 8px 12px;
+    align-items: center;
+    border-radius: 26px;
+  }
+
+  @keyframes fallAndBounce {
+    0% {
+      transform: translateX(0%) translateY(-100%);
+    }
+
+    25% {
+      transform: translateX(0%) translateY(0);
+    }
+
+    50% {
+      transform: translateX(0%) translateY(-30px);
+    }
+
+    75% {
+      transform: translateX(0%) translateY(0);
+    }
+
+    100% {
+      transform: translateX(0%) translateY(0);
+    }
+  }
+
+  main .productInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-block: 0.5rem;
+    align-items: center;
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  main .productInfo .first {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  main .productInfo .first>div {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  main .productInfo .first div img {
+    width: 32px;
+    height: 28px;
+  }
+
+  main .productInfo .first div .title {
+    color: #1e0e62;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 145.455% */
+    width: 80vw;
+  }
+
+  main .productInfo .first div .text {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-top: 0.825rem;
+  }
+
+  main .productInfo .second {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  main .productInfo .second>div {
+    display: flex;
+    gap: 1rem;
+  }
+
+  main .productInfo .second div .title {
+    color: #1e0e62;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 123.81% */
+    letter-spacing: -0.4px;
+    margin-top: 1rem;
+  }
+
+  main .productInfo .second div .text {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 145.455% */
+    margin-top: 16px;
+  }
+
+  main .productInfo .second div button {
+    width: 120px;
+    height: 30px;
+    border-radius: 100px;
+    color: var(--colors-white, #fff);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 144.444% */
+  }
+
+  main .productInfo .second .getStarted {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+  }
+
+  main .productInfo .second .getStarted img {
+    width: 100px;
+    height: 20px;
+  }
+
+  main .learnMore {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background: #2f1893;
+    margin-inline: -1rem;
+    padding-inline: 0.5rem;
+    color: #fff;
+    padding-block: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  main .learnMore .first {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    overflow-x: auto;
+    margin-top: 2rem;
+  }
+
+  main .learnMore .first>div {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  main .learnMore .first div img {
+    position: relative;
+    top: 0.5rem;
+    width: 20px;
+    height: 22px;
+  }
+
+  main .learnMore .first div .title {
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 145.455% */
+    width: 80vw;
+  }
+
+  main .learnMore .first div .text {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-top: 0.825rem;
+  }
+
+  main .learnMore .second {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .learnMore .second .title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 123.81% */
+    letter-spacing: -0.4px;
+  }
+
+  main .learnMore .second .text {
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 145.455% */
+    margin-top: 16px;
+  }
+
+  main .learnMore .second div button {
+    width: 120px;
+    height: 30px;
+    border-radius: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 144.444% */
+  }
+
+  main .learnMore .second .getStarted {
+    margin-top: 10px;
+  }
+
+  main .learnMore .second>div {
+    display: flex;
+    gap: 1rem;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  section .first {
+    text-align: center;
+  }
+
+  section .first .heading {
+    text-align: center;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  section .first .title {
+    color: #1e0e62;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 123.81% */
+    letter-spacing: -0.4px;
+  }
+
+  section .first .text {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 162.5% */
+    margin-top: 24px;
+  }
+
+  section .first .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-block: 1rem;
+    margin-top: 1rem;
+    margin-inline: 0.5rem;
+    overflow-x: auto;
+    width: 90vw;
+  }
+
+  section .first .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 370px;
+    /* height: 562px; */
+    margin-block: 1rem;
+    transition: all 0.2s;
+  }
+
+  section .first .card .topSection {
+    border-radius: 10px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 33px 45px;
+  }
+
+  section .first .card .start {
+    color: #1e0e62;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 185.714% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  section .first .card .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 16px;
+  }
+
+  section .first .card .price .priceArea {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  section .first .card .price .dollar {
+    color: #1e0e62;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 162.5% */
+  }
+
+  section .first .card .price .figure {
+    color: #1e0e62;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    /* 120.69% */
+    letter-spacing: -1px;
+  }
+
+  section .first .card .topSection .price .detail {
+    color: #1e0e62;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 162.5% */
+  }
+
+  section .first .card .price div {
+    display: flex;
+    align-items: center;
+  }
+
+  section .first .card .price .detail {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #1e0e62;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 162.5% */
+  }
+
+  section .first .card .topSection .detail {
+    color: rgba(21, 20, 57, 0.4);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 162.5% */
+  }
+
+  section .first .card .topSection .text {
+    margin-top: 1rem;
+  }
+
+  section .first .card .feature {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-top: 20px;
+  }
+
+  section .first .card .feature p {
+    margin: 9px;
+  }
+
+  section .first .card .feature p img {
+    margin-right: 18px;
+  }
+
+  section .first .card .feature .uncheck {
+    color: #ebeaed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 162.5% */
+    position: relative;
+    left: 18px;
+  }
+
+  section .first .card button {
+    color: #1e0e62;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 144.444% */
+    border-radius: 100px;
+    border: 1px solid rgb(214, 214, 214);
+    background: transparent;
+    padding: 10px 28px;
+    margin-top: 1rem;
+  }
+
+  section .first .card:hover .topSection {
+    background: #2f1893;
+    transition: all 0.3s;
+    border: none;
+    color: #fff;
+  }
+
+  section .first .card:hover .topSection p {
+    transition: all 0.3s;
+    color: #fff;
+  }
+
+  section .first .card:hover button {
+    background: #ff64a0;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    transition: all 0.3s;
+  }
+
+  section .second {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    width: 90vw;
+  }
+
+  section .second .heading {
+    width: 90%;
+  }
+
+  section .second .heading .title {
+    color: #1e0e62;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    /* 123.81% */
+    letter-spacing: -0.4px;
+    margin-top: 1rem;
+  }
+
+  section .second .heading .text {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 145.455% */
+    margin-top: 1rem;
+  }
+
+  section .second .heading .call {
+    color: #1e0e62;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 162.5% */
+    margin-top: 1rem;
+  }
+
+  section .inputSection {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+    width: 90%;
+  }
+
+  section .inputSection form .topSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+
+  section .inputSection form .middleSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+  section .inputSection form .grid-item {
+    grid-column: span 1;
+  }
+
+  section .inputSection form .full-width {
+    grid-column: span 3;
+  }
+
+  section .inputSection input[type="text"],
+  section .inputSection input[type="email"] {
+    margin-top: 1rem;
+    margin-left: 0.1rem;
+    font-size: 14px;
+  }
+
+  section .inputSection input[type="number"],
+  section .inputSection select {
+    margin-left: 0.1rem;
+    font-size: 14px;
+  }
+
+  section .inputSection input,
+  section .inputSection select {
+    border-radius: 100px;
+    border: 2px solid #ebeaed;
+    margin-top: 1rem;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 144.444% */
+    height: 30px;
+    width: 86%;
+  }
+
+  section .inputSection input:hover,
+  section .inputSection select:hover,
+  section .inputSection textarea:hover {
+    border: 2px solid #fdebf2;
+  }
+
+  section .inputSection input:focus,
+  section .inputSection select:focus,
+  section .inputSection textarea:focus {
+    outline: 2px solid #e93a7d;
+    border-color: transparent;
+  }
+
+  section .inputSection select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-left: 1rem;
+    height: 30px;
+    padding-inline: 0.5rem;
+  }
+
+  section .inputSection input {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-inline: 0.5rem;
+    line-height: 20px;
+    /* 144.444% */
+  }
+
+  section .inputSection textarea {
+    border-radius: 10px;
+    border: 2px solid #ebeaed;
+    font-size: 14px;
+    background: #fff;
+    resize: none;
+    padding: 0.5rem;
+    /* margin-top: 1rem; */
+    color: rgba(21, 20, 57, 0.4);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 144.444% */
+    width: 93%;
+    padding-inline: 0.5rem;
+    margin-left: 0.1rem;
+  }
+
+  section .inputSection .btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+
+  section .inputSection .btn button {
+    border-radius: 100px;
+    width: max-content;
+    height: 35px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding-inline: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 144.444% */
+  }
+
+  section .help {
+    margin-top: 1rem;
+  }
+
+  section .help .title {
+    color: #1e0e62;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* 145.455% */
+  }
+
+  section .help .text {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 162.5% */
+    margin-top: 0.5rem;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin-top: 3rem;
+    padding-inline: 0.25rem;
+    gap: 50px;
+    background: #fafafa;
+  }
+
+  footer .brand .logo {
+    color: #1e0e62;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.293px;
+    padding-inline: 0.5rem;
+  }
+
+  footer .brand .moto {
+    color: rgba(21, 20, 57, 0.4);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 162.5% */
+    width: 130px;
+    margin-top: 1rem;
+    padding-inline: 0.5rem;
+  }
+
+  footer .brand .handles {
+    width: 20px;
+    height: 22px;
+    margin-top: 1rem;
+    padding-inline: 0.5rem;
+    padding-bottom: 1rem;
+  }
+
+  footer .handles {
+    display: flex;
+    gap: 1rem;
+  }
+
+  footer table {
+    overflow-x: auto;
+    width: 100px;
+    /* table-layout: fixed; */
+    margin-top: 1rem;
+  }
+
+  footer table th,
+  footer table td {
+    padding-inline: 0.5rem;
+  }
+
+  footer table th {
+    color: #1e0e62;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    line-height: 20px;
+    /* 155.556% */
+  }
+
+  footer table tr td {
+    color: #1e0e62;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 162.5% */
+    gap: 0.5rem;
+  }
+
+  footer table tbody {
+    position: relative;
+    top: 1rem;
+  }
+
+  footer table tbody tr td:hover {
+    color: #ff64a0;
+    cursor: pointer;
+  }
 }
